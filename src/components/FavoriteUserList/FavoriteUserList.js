@@ -4,12 +4,11 @@ import Spinner from "components/Spinner";
 import CheckBox from "components/CheckBox";
 import IconButton from "@material-ui/core/IconButton";
 import FavoriteIcon from "@material-ui/icons/Favorite";
-import EmailIcon from '@material-ui/icons/Email';
 import * as S from "./style";
+import EmailIcon from "@material-ui/icons/Email";
 
-
-const UserList = ({ users, isLoading, fetchUsers }) => {
-    const [favoriteUsers, setFavoriteUsers]= useState(JSON.parse(localStorage.getItem("favoriteUsers")));
+const FavoriteUserList = ({ users, isLoading }) => {
+    const [favoriteUsers, setFavoriteUsers]= useState([]);
   const [hoveredUserId, setHoveredUserId] = useState();
   const [filteredUserList, setFilteredUserList]=useState([]);
   const handleMouseEnter = (index) => {
@@ -51,14 +50,6 @@ function buildUserList(user,index){
           </S.User>
       )
     }
-    const handleScroll = (event) => {
-        const { scrollTop, clientHeight, scrollHeight } = event.currentTarget;
-        if(checkCounter===0){
-        if (scrollHeight - scrollTop === clientHeight) {
-            fetchUsers();
-
-        }}
-    };
     function checkCountry( label, isChecked) {
         let tempList=[];
         if (isChecked) {
@@ -84,7 +75,7 @@ function buildUserList(user,index){
         localStorage.setItem("favoriteUsers",JSON.stringify(favoriteUsers));
     }
   return (
-    <S.UserList   >
+    <S.FavoriteUserList   >
       <S.Filters >
         <CheckBox onChange={checkCountry} value="BR" label="Brazil"  />
         <CheckBox onChange={checkCountry} value="AU" label="Australia" />
@@ -92,7 +83,7 @@ function buildUserList(user,index){
         <CheckBox onChange={checkCountry} value="DE" label="Germany" />
         <CheckBox onChange={checkCountry} value="DN" label="Denmark" />
       </S.Filters>
-      <S.List onScroll={handleScroll}>
+      <S.List >
         {checkCounter===0
             ? users.map((user, index) => {
           return (buildUserList(user,index)
@@ -110,8 +101,8 @@ function buildUserList(user,index){
           </S.SpinnerWrapper>
         )}
       </S.List>
-    </S.UserList>
+    </S.FavoriteUserList>
   );
 };
 
-export default UserList;
+export default FavoriteUserList;
