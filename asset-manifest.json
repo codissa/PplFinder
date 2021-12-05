@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Pplfinder/static/js/main.1110644f.chunk.js",
-    "main.js.map": "/Pplfinder/static/js/main.1110644f.chunk.js.map",
-    "runtime-main.js": "/Pplfinder/static/js/runtime-main.c57070c1.js",
-    "runtime-main.js.map": "/Pplfinder/static/js/runtime-main.c57070c1.js.map",
-    "static/js/2.da51d363.chunk.js": "/Pplfinder/static/js/2.da51d363.chunk.js",
-    "static/js/2.da51d363.chunk.js.map": "/Pplfinder/static/js/2.da51d363.chunk.js.map",
-    "index.html": "/Pplfinder/index.html",
-    "precache-manifest.70e843b587c78b1c7882a48c265efbb8.js": "/Pplfinder/precache-manifest.70e843b587c78b1c7882a48c265efbb8.js",
-    "service-worker.js": "/Pplfinder/service-worker.js",
-    "static/js/2.da51d363.chunk.js.LICENSE.txt": "/Pplfinder/static/js/2.da51d363.chunk.js.LICENSE.txt"
+    "main.js": "/PplFinder/static/js/main.723e12a8.chunk.js",
+    "main.js.map": "/PplFinder/static/js/main.723e12a8.chunk.js.map",
+    "runtime-main.js": "/PplFinder/static/js/runtime-main.54223370.js",
+    "runtime-main.js.map": "/PplFinder/static/js/runtime-main.54223370.js.map",
+    "static/js/2.4f080c54.chunk.js": "/PplFinder/static/js/2.4f080c54.chunk.js",
+    "static/js/2.4f080c54.chunk.js.map": "/PplFinder/static/js/2.4f080c54.chunk.js.map",
+    "index.html": "/PplFinder/index.html",
+    "precache-manifest.7ec79c35cb19f2e5da1a190c62f18c38.js": "/PplFinder/precache-manifest.7ec79c35cb19f2e5da1a190c62f18c38.js",
+    "service-worker.js": "/PplFinder/service-worker.js",
+    "static/js/2.4f080c54.chunk.js.LICENSE.txt": "/PplFinder/static/js/2.4f080c54.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c57070c1.js",
-    "static/js/2.da51d363.chunk.js",
-    "static/js/main.1110644f.chunk.js"
+    "static/js/runtime-main.54223370.js",
+    "static/js/2.4f080c54.chunk.js",
+    "static/js/main.723e12a8.chunk.js"
   ]
 }
