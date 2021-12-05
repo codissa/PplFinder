@@ -10,10 +10,10 @@ const AppRouter = () => {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path="/PplFinder" render={() => (
+          <Route exact path="/" render={() => (
               <Home   />
           )} />
-            <Route  path="/PplFinder/Favorites" render={() => (
+            <Route  path="/Favorites" render={() => (
                 <Favorites />
             )} /> />
         </Switch>
