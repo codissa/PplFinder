@@ -5,26 +5,16 @@ import { ThemeProvider } from "theme";
 import NavBar from "components/NavBar";
 
 const AppRouter = () => {
-    const [favorites, setFavorites]= useState([]);
-    const addFavorite = favorite => {
-        if (!favorites.some(alreadyFavorite => alreadyFavorite.email == favorite.email)){
-            setFavorites([...favorites,favorite]);
-        }
-        else{
-            setFavorites(favorites.filter((current) => current.email !== favorite.email));
-        }
-
-    console.log(favorites);}
   return (
     <ThemeProvider>
       <Router>
         <NavBar />
         <Switch>
           <Route exact path="/" render={() => (
-              <Home addFavorite={addFavorite}  />
+              <Home   />
           )} />
             <Route  path="/Favorites" render={() => (
-                <Favorites favoriteUser={favorites} />
+                <Favorites />
             )} /> />
         </Switch>
       </Router>
