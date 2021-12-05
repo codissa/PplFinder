@@ -1,6 +1,6 @@
 {
   "homepage": "https://codissa.github.io/Pplfinder",
-  "name": "Pplfinder",
+  "name": "pplfinder",
   "version": "1.0.7",
   "bin": "./bin/cli.js",
   "license": "MIT",
