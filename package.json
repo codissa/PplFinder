@@ -1,5 +1,5 @@
 {
-  "homepage": "http://codissa.github.io/pplfinder",
+  "homepage": "https://codissa.github.io/pplfinder",
   "name": "ppl-finder",
   "version": "1.0.7",
   "bin": "./bin/cli.js",
