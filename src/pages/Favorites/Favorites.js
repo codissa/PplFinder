@@ -13,6 +13,9 @@ const Favorites = () => {
             favorite people
           </Text>
         </S.Header>
+        <Text size="12" bold>
+          click mail button to copy email
+        </Text>
         <FavoriteUserList users={JSON.parse(localStorage.getItem('favoriteUsers'))} isLoading={false} />
       </S.Content>
     </S.Home>

@@ -14,6 +14,9 @@ const Home = () => {
             PplFinder
           </Text>
         </S.Header>
+        <Text size="12" bold>
+          click mail button to copy email
+        </Text>
         <UserList users={users} isLoading={isLoading} fetchUsers={fetchUsers} />
       </S.Content>
     </S.Home>
