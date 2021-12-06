@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/PplFinder/static/js/main.4a8d27ad.chunk.js",
-    "main.js.map": "/PplFinder/static/js/main.4a8d27ad.chunk.js.map",
+    "main.js": "/PplFinder/static/js/main.fc021874.chunk.js",
+    "main.js.map": "/PplFinder/static/js/main.fc021874.chunk.js.map",
     "runtime-main.js": "/PplFinder/static/js/runtime-main.54223370.js",
     "runtime-main.js.map": "/PplFinder/static/js/runtime-main.54223370.js.map",
     "static/js/2.4f080c54.chunk.js": "/PplFinder/static/js/2.4f080c54.chunk.js",
     "static/js/2.4f080c54.chunk.js.map": "/PplFinder/static/js/2.4f080c54.chunk.js.map",
     "index.html": "/PplFinder/index.html",
-    "precache-manifest.7982cc0ec7ba653c8390c035d3758fe2.js": "/PplFinder/precache-manifest.7982cc0ec7ba653c8390c035d3758fe2.js",
+    "precache-manifest.cd2579cd3ab576f6031a4b1b5dd58437.js": "/PplFinder/precache-manifest.cd2579cd3ab576f6031a4b1b5dd58437.js",
     "service-worker.js": "/PplFinder/service-worker.js",
     "static/js/2.4f080c54.chunk.js.LICENSE.txt": "/PplFinder/static/js/2.4f080c54.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.54223370.js",
     "static/js/2.4f080c54.chunk.js",
-    "static/js/main.4a8d27ad.chunk.js"
+    "static/js/main.fc021874.chunk.js"
   ]
 }
