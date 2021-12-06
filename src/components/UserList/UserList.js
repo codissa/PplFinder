@@ -9,7 +9,8 @@ import * as S from "./style";
 
 
 const UserList = ({ users, isLoading, fetchUsers }) => {
-    const [favoriteUsers, setFavoriteUsers]= useState(JSON.parse(localStorage.getItem("favoriteUsers")));
+    const localData = localStorage.getItem('favoriteUsers');
+    const [favoriteUsers, setFavoriteUsers]= useState([]);
   const [hoveredUserId, setHoveredUserId] = useState();
   const [filteredUserList, setFilteredUserList]=useState([]);
   const handleMouseEnter = (index) => {
@@ -75,6 +76,11 @@ function buildUserList(user,index){
         }
     }
     function sendToFavorites(user){
+        // if (user.isFavorite===true){
+        //     if(!favoriteUsers.length){
+        //     setFavoriteUsers(user);
+        // }}
+
         if(user.isFavorite===true && !favoriteUsers.includes(user)){
             setFavoriteUsers([...favoriteUsers,user]);
         }
